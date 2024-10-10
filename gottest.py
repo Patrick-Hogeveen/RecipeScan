@@ -14,4 +14,5 @@ model = model.eval().cuda()
 image_file = 'Images/clean.jpg'
 
 res = model.chat(tokenzier, image_file, ocr_type='format')
+res = model.chat(tokenzier, image_file, ocr_type='format')
 print(res)
